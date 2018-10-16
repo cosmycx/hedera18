@@ -1,0 +1,32 @@
+{
+  "resourceType": "Bundle",
+  "type": "transaction",
+  "entry": [{
+    "resource": {
+      "resourceType": "Patient",
+      "id": "patient-000-000-001",
+      "name": [{
+        "family": [
+          "LastName"
+        ],
+        "given": [
+          "Marcos"
+        ]
+      }],
+      "birthDate": "1940-01-04",
+      "gender": "male",
+      "address": [{
+        "use": "home",
+        "text": "1 Main Street\nPatientCity, PA 17815\nUSA",
+        "line": [
+          "1 Main Street"
+        ],
+        "city": "PatientCity",
+        "state": "PA",
+        "postalCode": "17815",
+        "country": "USA"
+      }],
+      "active": true
+    }
+  }]
+}
